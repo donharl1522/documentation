@@ -1,0 +1,92 @@
+#navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 250px;
+  height: 630px;
+  background-color: #f1f1f1;
+  position: fixed;
+  overflow: auto;
+  position: fixed;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.nav-link a {
+  display: block;
+  color: #000;
+  padding: 30px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  margin-bottom: 0px;
+}
+
+.nav-link a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.nav-link a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+#header{
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: 50px;
+}
+
+.main-section{
+	margin-left: 350px;
+	margin-right: 100px;
+}
+
+#guitarparts{
+	width: 450px;
+	float: right;
+	margin-left: 50px;
+
+}
+@media screen and (max-width: 1000px) {
+  #guitarparts {
+    width: 100%;
+  }
+}
+
+#stringname{
+	width: 370px;
+	float: right;
+	margin-left: 50px;
+	border-radius: 5%;
+	margin-top: 40px;
+}
+.stringhelp{
+	text-align: center;	
+}
+
+#video{
+	width: 500px;
+}
+
+#guitarhold{
+	width: 350px;
+	float: left;
+	border-radius: 5%;
+	margin-right: 30px;
+}
+#chordspic{
+	width: 320px;
+	float: right;
+	margin-left: 30px;
+	border-radius:5%;
+	margin-top: -10px;
+	margin-right: 150px;
+}
+#firsttry{
+	font-size: 20px;
+}
+.refdesc{
+	font-size: 20px;
+}
